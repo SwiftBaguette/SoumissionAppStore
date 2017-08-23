@@ -14,11 +14,12 @@ Ce document liste toutes les informations nécessaires afin de soumettre rapidem
 #### Informations traduisibles
 
 * Nom
-	* Nom de votre app tel qu’il apparaîtra dans l’App Store. 
-	* Ce nom ne peut dépasser 50 caractères.
+	* Nom de votre app tel qu’il apparaîtra dans l’App Store.
+	* Peut être différent du nom de l'app affiché sur le dashboard
+	* Ce nom ne peut dépasser 30 caractères.
 * Sous titre
 	* Bref descriptif de votre app qui apparaîtra sous le nom de l’app dans l’App Store pour les utilisateurs dont les appareils sont dotés d’iOS 11 (ou toute version ultérieure).
-	* Le sous titre ne peut dépasser 45 caractères.
+	* Le sous titre ne peut dépasser 30 caractères.
 * URL de l'Engagement de confidentialité
 	* URL renvoyant vers l’Engagement de confidentialité de votre organisation. Les apps destinées aux enfants, celles offrant des abonnements avec renouvellement automatique ou des abonnements gratuits, mais aussi les apps exigeant une création de compte et celles ayant accès à un compte existant de l’utilisateur doivent obligatoirement disposer d’un Engagement de confidentialité, sous réserve des exigences légales supplémentaires. Un tel document est aussi recommandé pour les apps qui recueillent les données de l’utilisateur ou de l’appareil. 
 
@@ -55,7 +56,10 @@ Ce document liste toutes les informations nécessaires afin de soumettre rapidem
 #### Informations spécifiques à la version - Informations traduisibles
 
 * Aperçu et captures d’écran de l’app
-	* Les captures d’écran doivent être au format JPG ou PNG et réalisées dans l’espace colorimétrique RVB. Les aperçus de l’app doivent être au format M4V, MP4 ou MOV, et ne doivent pas dépasser 500 Mo.
+	* Les captures d’écran doivent être au format JPG ou PNG et réalisées dans l’espace colorimétrique RVB. 
+	* Les aperçus de l’app doivent être au format M4V, MP4 ou MOV, et ne doivent pas dépasser 500 Mo.
+	* Les aperçus de l'app peuvent être au nombre de 3, localisés.
+	* Les aperçus s'affichent devant les captures d'écran.
 	* Merci de prendre en compte ce document officiel: [En savoir plus](https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Appendices/Properties.html#//apple_ref/doc/uid/TP40011225-CH26-SW2) 
 
 	* **Conseil**: Afin d'éviter les nombreuses captures d'écran à demander, Apple peut utiliser la plus grande résolution et les utiliser pour les résolutions inférieures. En d'autres mots, et pour un soucis de simplicité:
@@ -73,12 +77,15 @@ Ce document liste toutes les informations nécessaires afin de soumettre rapidem
 * Description
 	* Une description de votre app, détaillant ses caractéristiques et ses fonctionnalités. Elle sera également utilisée pour votre app sur l’Apple Watch.
 
-* Accroche
-	* L’accroche vous permet d’attirer l’attention des visiteurs de votre page produit dans l’App Store sur les avantages actuels liés à votre app sans que vous n’ayez à soumettre une nouvelle version. Ce texte s’affichera au-dessus de votre description dans l’App Store pour les utilisateurs dont les appareils sont dotés d’iOS 11 (ou toute version ultérieure). 
+* Texte promotionnel
+	* Le texte promotionnel vous permet d’attirer l’attention des visiteurs de votre page produit dans l’App Store sur les avantages actuels liés à votre app sans que vous n’ayez à soumettre une nouvelle version. Ce texte s’affichera au-dessus de votre description dans l’App Store pour les utilisateurs dont les appareils sont dotés d’iOS 11 (ou toute version ultérieure). 
 	* 170 caractères
+	* Peut être édité n'importe quand, pas besoin d'une nouvelle version de l'application à soumettre
 
 * Mots-clés
-	* Un ou plusieurs mots-clés qui décrivent votre app. Les mots-clés rendent les résultats de recherche dans l’App Store plus précis. Séparez les mots-clés par une virgule.
+	* Un ou plusieurs mots-clés qui décrivent votre app. Les mots-clés rendent les résultats de recherche dans l’App Store plus précis. 
+	* Séparez les mots-clés par une virgule.
+	* 100 caractères
 
 * URL de l'assistance
 	* URL avec des informations d’assistance pour votre app. Cette URL sera visible dans l’App Store. 
@@ -97,7 +104,7 @@ Ce document liste toutes les informations nécessaires afin de soumettre rapidem
 	* Pour chaque description de contenu, sélectionnez le niveau de fréquence qui décrit le mieux votre app. La classification de l’app qui sera affichée dans l’App Store est la même sur l’ensemble de vos plates-formes. Elle est basée sur la plate-forme ayant la classification la plus restrictive. Les apps ne doivent pas comprendre de contenu ou matériel (textes, graphiques, images, photographies, etc.) obscène, pornographique, offensant ou diffamatoire, ou tout autre contenu ou matériel qu’Apple peut raisonnablement juger contestable
 	* [En savoir plus](https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app_ratings)
 
-![Rating](assets/rate.png)	
+![Rating](https://cloud.githubusercontent.com/assets/6575155/22881158/87c3f766-f1e5-11e6-8275-072a0581e067.png)	
 	 
 * Copyright
 	* Nom de la personne ou entité qui détient les droits exclusifs de votre app, précédé de l’année durant laquelle les droits ont été obtenus (par exemple, « 2008 Acme Inc. »). N’indiquez pas une URL.
@@ -158,4 +165,4 @@ Veuillez choisir entre:
 
 ------
 
-Dernière mise à jour du fichier: 10 Juin 2017
+Dernière mise à jour du fichier: 23 Août 2017
