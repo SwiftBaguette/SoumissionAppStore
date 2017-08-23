@@ -104,7 +104,7 @@ Ce document liste toutes les informations nécessaires afin de soumettre rapidem
 	* Pour chaque description de contenu, sélectionnez le niveau de fréquence qui décrit le mieux votre app. La classification de l’app qui sera affichée dans l’App Store est la même sur l’ensemble de vos plates-formes. Elle est basée sur la plate-forme ayant la classification la plus restrictive. Les apps ne doivent pas comprendre de contenu ou matériel (textes, graphiques, images, photographies, etc.) obscène, pornographique, offensant ou diffamatoire, ou tout autre contenu ou matériel qu’Apple peut raisonnablement juger contestable
 	* [En savoir plus](https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app_ratings)
 
-![Rating](https://cloud.githubusercontent.com/assets/6575155/22881158/87c3f766-f1e5-11e6-8275-072a0581e067.png)	
+![Rating](assets/rate.png)	
 	 
 * Copyright
 	* Nom de la personne ou entité qui détient les droits exclusifs de votre app, précédé de l’année durant laquelle les droits ont été obtenus (par exemple, « 2008 Acme Inc. »). N’indiquez pas une URL.
